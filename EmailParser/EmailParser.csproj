@@ -7,8 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="EAGetMail" Version="5.3.5" />
+        <PackageReference Include="EPPlus" Version="7.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Configurations\" />
     </ItemGroup>
 
 </Project>

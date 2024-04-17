@@ -7,7 +7,7 @@ public class SpamValidator : IValidator<CustomerRequest>
 {
     public bool Validate(CustomerRequest candidate)
     {
-        return !string.IsNullOrWhiteSpace(candidate.Contact);
+        return !string.IsNullOrWhiteSpace(candidate.Phone);
     }
 
     private bool IsPhone(string contact)
